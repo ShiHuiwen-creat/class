@@ -1,0 +1,355 @@
+﻿<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>重要通知</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+        }
+
+        body {
+            font-family: Helvetica;
+            -webkit-font-smoothing: antialiased;
+            background: rgba(71, 147, 227, 1);
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: white;
+            padding: 30px 0;
+        }
+
+        /* Table Styles */
+
+        .table-wrapper {
+            margin: 10px 70px 70px;
+            box-shadow: 0px 35px 50px rgba(0, 0, 0, 0.2);
+        }
+
+        .fl-table {
+            border-radius: 5px;
+            font-size: 12px;
+            font-weight: normal;
+            border: none;
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 100%;
+            white-space: nowrap;
+            background-color: white;
+        }
+
+        .fl-table td,
+        .fl-table th {
+            text-align: center;
+            padding: 8px;
+        }
+
+        .fl-table td {
+            border-right: 1px solid #f8f8f8;
+            font-size: 12px;
+        }
+
+        .fl-table thead th {
+            color: #ffffff;
+            background: #4FC3A1;
+        }
+
+
+        .fl-table thead th:nth-child(odd) {
+            color: #ffffff;
+            background: #324960;
+        }
+
+        .fl-table tr:nth-child(even) {
+            background: #F8F8F8;
+        }
+
+        /* Responsive */
+
+        @media (max-width: 767px) {
+            .fl-table {
+                display: block;
+                width: 100%;
+            }
+
+            .table-wrapper:before {
+                content: "Scroll horizontally >";
+                display: block;
+                text-align: right;
+                font-size: 11px;
+                color: white;
+                padding: 0 0 10px;
+            }
+
+            .fl-table thead,
+            .fl-table tbody,
+            .fl-table thead th {
+                display: block;
+            }
+
+            .fl-table thead th:last-child {
+                border-bottom: none;
+            }
+
+            .fl-table thead {
+                float: left;
+            }
+
+            .fl-table tbody {
+                width: auto;
+                position: relative;
+                overflow-x: auto;
+            }
+
+            .fl-table td,
+            .fl-table th {
+                padding: 20px .625em .625em .625em;
+                height: 60px;
+                vertical-align: middle;
+                box-sizing: border-box;
+                overflow-x: hidden;
+                overflow-y: auto;
+                width: 120px;
+                font-size: 13px;
+                text-overflow: ellipsis;
+            }
+
+            .fl-table thead th {
+                text-align: left;
+                border-bottom: 1px solid #f7f7f9;
+            }
+
+            .fl-table tbody tr {
+                display: table-cell;
+            }
+
+            .fl-table tbody tr:nth-child(odd) {
+                background: none;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: transparent;
+            }
+
+            .fl-table tr td:nth-child(odd) {
+                background: #F8F8F8;
+                border-right: 1px solid #E6E4E4;
+            }
+
+            .fl-table tr td:nth-child(even) {
+                border-right: 1px solid #E6E4E4;
+            }
+
+            .fl-table tbody td {
+                display: block;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>之后的重要安排</h2>
+    <div class="table-wrapper">
+        <table class="fl-table">
+            <thead>
+                <tr>
+                    <th>科目</th>
+                    <th>通知类型</th>
+                    <th>详细通知</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>测试</td>
+                    <td>后续安排</td>
+                    <td><img src="images/test.png" height="200px"></td>
+
+                </tr>
+                <tr>
+                    <td>科学计算</td>
+                    <td>后续安排</td>
+                    <td><img src="images/mlearn.jpg" height="200px"></td>
+
+                </tr>
+                <tr>
+                    <td>测试</td>
+                    <td>研讨答辩顺序</td>
+                    <td><a href="file/软件工程19级测试研讨组队选题（1904-1906） (1).xlsx">顺序</a></td>
+
+                </tr>
+                <tr>
+                    <td>云计算</td>
+                    <td>实验时间</td>
+
+                    <td>12-15下午2-5点</td>
+                </tr>
+                <tr>
+                    <td>测试</td>
+                    <td>答辩顺序和时间安排</td>
+
+                    <td><img src="file/测试答辩顺序.png" height="200px"></td>
+                </tr>
+                <tr>
+                    <td>云计算</td>
+                    <td>实验安排</td>
+
+                    <td><b><i>下午2:00-5:00云计算实验，如有物联网考试的考完再来，18周周二答疑课，检查实验</i></b></td>
+                </tr>
+                <!-- <tr>
+                    <td></td>
+                    <td>爸爸给你们的礼物，手慢无</td>
+                   
+                    <td><img src="images/5e95e422f9c49969fb4f73fb938faf59(1.jpg" height="200px"></img></td>
+                </tr> -->
+                <tr>
+                    <td>云计算</td>
+                    <td>云计算实验内容和模板</td>
+
+                    <td><a href="file/《云计算及应用》实验指导书.doc">云计算实验报告</a></td>
+                </tr>
+                <tr>
+                    <td>大型数据库</td>
+                    <td>大型数据库实验安排</td>
+
+                    <td>下周三（12.22下午）（时间修改到以下）</td>
+                </tr>
+                <tr>
+                    <td>大型数据库</td>
+                    <td>大型数据库实验安排</td>
+
+                    <td>12-18上午8 - 11</td>
+                </tr>
+                <tr>
+                    <td>大型数据库</td>
+                    <td>大型数据库实验检查</td>
+
+                    <td>18周周一</td>
+                </tr>
+                <tr>
+                    <td>体系结构</td>
+                    <td>体系结构实验</td>
+
+                    <td>《软件体系结构》实验3的实验指导书也已上传课程邮箱</td>
+                </tr>
+                <tr>
+                    <td>测试</td>
+                    <td>测试实验和ppt
+
+                    </td>
+                    <td>测试最新两次的实验指导书已经上传到可视化平台上了
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>体系结构</td>
+                    <td>体系结构实验</td>
+
+                    <td>《软件体系结构》实验3的实验指导书也已上传课程邮箱
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>
+                            <font color="red">机器学习实习</font>
+                        </p>
+                    </td>
+                    <td>实习鉴定表</td>
+                    <td><a href="file/5-实习鉴定.doc">下载</a> 26号之前交齐 提交路径在《实验报告》模块,单位写中南大学 岗位写校内实训
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <font color="red">ST</font>
+                        </p>
+                    </td>
+                    <td>实验报告</td>
+                    <td><img src="images/1.png" height="200px">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <font color="red">选课</font>
+                        </p>
+                    </td>
+                    <td>关于选课的注意事项</td>
+                    <td>31号上午10点开始选课，课表如下<img src="images/DSXPNAJK55[EW[L6D1NJ3DM.png" height="200px">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <font color="red">软件过程与改进</font>
+                        </p>
+                    </td>
+                    <td>关于选课的注意事项</td>
+                    <td>
+                        <a href="file/2019级《软件过程与改进》课后作业1-《人月神话》读后感.pdf">2019级《软件过程与改进》课后作业1-《人月神话》读后感</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <font color="red">软件过程与改进</font>
+                        </p>
+                    </td>
+                    <td>psp专项练习</td>
+                    <td>
+                        <img src="images/QQ图片20220316222628.png" ,height="200px">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>
+                            <font color="red">项目实习</font>
+                        </p>
+                    </td>
+                    <td>详细见文件</td>
+                    <td>
+                        <img src="images/shixi.png" ,height="200px">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>
+                            <font color="red">项目实习</font>
+                        </p>
+                    </td>
+                    <td>截止时间</td>
+                    <td>
+                        现在还需要收集项目实习材料电子版（实习报告，4周周报，实习鉴定意见扫描件）<br>
+                        交给我纸质版的只需要交实习报告和4周周报就可以了，实习鉴定意见扫描件我自己扫描<br>
+                        没有交给我纸质版的需要三个都提交<br>
+                        截止时间：<font color="red">10.8晚上8点</font>
+                    </td>
+                </tr>
+
+                </tr>
+
+            <tbody>
+        </table>
+    </div>
+
+
+</body>
+
+</html>
+<!--下面是无用代码-->
+<a href="http://www.bootstrapmb.com" style="display:none">bootstrapmb</a>
